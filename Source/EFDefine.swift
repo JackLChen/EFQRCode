@@ -62,6 +62,7 @@ public struct EFUIntPixel {
                 blue: UInt8(components[2] * 255.0),
                 alpha: UInt8(components[3] * 255.0)
             )
+            return 
         }
         return nil
     }
